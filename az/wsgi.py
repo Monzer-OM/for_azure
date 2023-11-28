@@ -1,5 +1,5 @@
 """
-WSGI config for for_azure project.
+WSGI config for az project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'for_azure.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'az.settings')
 
 application = get_wsgi_application()
